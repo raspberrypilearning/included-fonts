@@ -1,59 +1,26 @@
-## Introduction
+The starter project has 20 fonts already imported from the Google fonts library. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+**Tip:** If you have used one of the css colour palettes included in the starter project, a matching font has already been assigned but you can replace it. 
 
-### What you will make
+The included fonts are: 
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+![](images/font-list.png)
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+Go to `default.css` or the filename of your chosen colour palette (example `festival.css`). 
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+Replace the existing `header-font`, `title-font` and `quote-font` with the name of your chosen font:
 
---- collapse ---
+--- code ---
 ---
-title: What you will need
+language: html
+line_numbers: false
+line_number_start: 1
+line_highlights: 2-4
 ---
-### Hardware
+  --body-font: 1rem Verdana, sans-serif;
+  --header-font: lighter 3rem "spirax", cursive;
+  --title-font: lighter 2rem "spirax", cursive;
+  --quote-font: lighter 1.5rem "spirax", cursive;
 
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+--- /code ---
+  
