@@ -13,9 +13,8 @@ Replace the existing `header-font`, `title-font` and `quote-font` with the name 
 --- code ---
 ---
 language: html
+filename: default.css
 line_numbers: false
-line_number_start: 1
-line_highlights: 2-4
 ---
   --body-font: 1rem Verdana, sans-serif;
   --header-font: lighter 3rem "spirax", cursive;
@@ -23,4 +22,22 @@ line_highlights: 2-4
   --quote-font: lighter 1.5rem "spirax", cursive;
 
 --- /code ---
-  
+ 
+You can add also add your font variables to existing classes or use them when you make your own classes:
+
+--- code ---
+---
+language: html
+filename: default.css
+line_numbers: false
+line_number_start: 1
+line_highlights: 3
+---
+.bigfont {
+  font-size: 3rem;
+  font: var(--header-font);
+}
+
+--- /code ---
+
+
