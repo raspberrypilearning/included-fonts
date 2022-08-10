@@ -1,14 +1,14 @@
-The starter project has 20 fonts already imported from the Google fonts library. 
+The starter project has 20 fonts already imported from the Google Fonts library. 
 
-**Tip:** If you have used one of the css colour palettes included in the starter project, a matching font has already been assigned but you can replace it. 
+**Tip:** If you have used one of the CSS colour palettes included in the starter project, a matching font has already been assigned. You can replace this font if you would like to use a different one.  
 
 The included fonts are: 
 
-![](images/font-list.png)
+![alt=""](images/font-list.png)
 
 Go to `default.css` or the filename of your chosen colour palette (example `festival.css`). 
 
-Replace the existing `header-font`, `title-font` and `quote-font` with the name of your chosen font:
+Replace the existing `header-font`, `title-font`, and `quote-font` with the name of your chosen font.
 
 --- code ---
 ---
@@ -23,7 +23,7 @@ line_numbers: false
 
 --- /code ---
  
-You can add also add your font variables to existing classes or use them when you make your own classes:
+You can add also add your font variables to existing classes or use them when you make your own classes.
 
 --- code ---
 ---
