@@ -1,14 +1,14 @@
-Le projet de démarrage a déjà 20 polices de caractères importées de la bibliothèque Google fonts.
+The starter project has 20 fonts already imported from the Google Fonts library.
 
-**Astuce :** si tu as utilisé l'une des palettes de couleurs css incluses dans le projet de démarrage, une police correspondante a déjà été attribuée mais tu peux la remplacer.
+**Tip:** If you have used one of the CSS colour palettes included in the starter project, a matching font has already been assigned. You can replace this font if you would like to use a different one.
 
 Les polices incluses sont :
 
-![](images/font-list.png)
+![alt=""](images/font-list.png)
 
 Va dans `default.css` ou le nom du fichier de la palette de couleurs de ton choix (exemple `festival.css`).
 
-Remplace les `header-font`, `title-font` et `quote-font` existants par le nom de la police que tu as choisie :
+Replace the existing `header-font`, `title-font`, and `quote-font` with the name of your chosen font.
 
 ## --- code ---
 
@@ -24,7 +24,7 @@ line_numbers: false
 
 \--- /code ---
 
-Tu peux également ajouter tes variables de police aux classes existantes ou les utiliser lorsque tu crées tes propres classes :
+You can add also add your font variables to existing classes or use them when you make your own classes.
 
 ## --- code ---
 
