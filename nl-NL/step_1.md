@@ -1,14 +1,14 @@
-Het startproject heeft 20 lettertypen die al zijn geïmporteerd uit de Google-lettertypen bibliotheek.
+The starter project has 20 fonts already imported from the Google Fonts library.
 
-**Tip:** Als je een van de css-kleurenpaletten hebt gebruikt die deel uitmaken van het startproject is er al een overeenkomstig lettertype toegewezen maar je kunt het vervangen.
+**Tip:** If you have used one of the CSS colour palettes included in the starter project, a matching font has already been assigned. You can replace this font if you would like to use a different one.
 
 De meegeleverde lettertypen zijn:
 
-![](images/font-list.png)
+![alt=""](images/font-list.png)
 
 Ga naar `default.css` of de bestandsnaam van het door jou gekozen kleurenpalet (bijvoorbeeld `festival.css`).
 
-Vervang het bestaande `header-font`, `title-font` en `quote-font` door de naam van het door jou gekozen lettertype:
+Replace the existing `header-font`, `title-font`, and `quote-font` with the name of your chosen font.
 
 ## --- code ---
 
@@ -24,7 +24,7 @@ line_numbers: false
 
 \--- /code ---
 
-Je kunt ook je lettertype variabelen toevoegen aan bestaande classes of ze gebruiken wanneer je je eigen classes maakt:
+You can add also add your font variables to existing classes or use them when you make your own classes.
 
 ## --- code ---
 
